@@ -48,6 +48,7 @@
 			// support for CSS Transitions & transforms
 			this.support = Modernizr.csstransitions && Modernizr.csstransforms;
 			this.support3d = Modernizr.csstransforms3d;
+
 			// transition end event name and transform name
 			// transition end event name
 			var transEndEventNames = {
@@ -82,6 +83,7 @@
 			}
 			// each item will have a width of 100 / itemsCount
 			this.$items.css( 'width', 100 / this.itemsCount + '%' );
+
 			// add navigation arrows and the navigation dots if there is more than 1 item
 			if( this.itemsCount > 1 ) {
 
@@ -89,6 +91,7 @@
 				this.$navPrev = $( '<span class="cbp-fwprev">&lt;</span>' ).hide();
 				this.$navNext = $( '<span class="cbp-fwnext">&gt;</span>' );
 				$( '<nav/>' ).append( this.$navPrev, this.$navNext ).appendTo( this.$el );
+
 				// add navigation dots
 				var dots = '';
 				for( var i = 0; i < this.itemsCount; ++i ) {

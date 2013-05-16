@@ -10,16 +10,49 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
-    <title>Cool Kitten: A parallax scrolling responsive framework</title>
+
+    <title>insectlounge openair 5./6. Juli 2013</title>
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
-    <link rel="stylesheet" type="text/css" href="css/component.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slider.css"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
     <!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
     <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+    <!--<script type="text/javascript" src="js/waypoints.min.js"></script>-->
+    <!--<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>-->
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
+<!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.cbpFWSlider.js"></script>
+    <script>
+        $(function () {
+            $('#cbp-fwslider').cbpFWSlider();
+        });
+    </script>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
+    <script src="js/jquery.debouncedresize.js"></script>
+    <script src="js/cbpFixedScrollLayout.js"></script>
+    <script>
+        $(function() {
+            cbpFixedScrollLayout.init();
+        });
+    </script>
 </head>
 
 <body>
@@ -34,7 +67,7 @@
         <div id="nav" class="grid_9 omega">
             <ul class="navigation">
                 <li data-slide="1">Start</li>
-                <li data-slide="2">LineUp</li>
+                <li data-slide="2">Bands</li>
                 <li data-slide="3">Place</li>
                 <li data-slide="4">Credits</li>
             </ul>
@@ -43,6 +76,9 @@
     </div>
 </div>
 
+<!-------------------------------->
+<!-------------START-------------->
+<!-------------------------------->
 
 <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 
@@ -52,110 +88,146 @@
 
     <div class="container clearfix">
 
-        <div id="content" class="grid_7">
-            <!--<h1>Top Slide</h1>-->
-            <!--<h2>Get ready to make magic!</h2>-->
-            <!--<p>Remember that this is a BETA version. This is my first framework so if you see any issue please <a href="mailto:jalxob@gmail.com">let me know it</a>. </p>-->
-            <!--<p>Don't forget to follow me!</p>-->
-            <!--<p><a href="https://twitter.com/Jalxob" target="_blank"><img src="images/twitter.png"></a> <a href="http://dribbble.com/jalxob" target="_blank"><img src="images/dribbble.png"></a></p>-->
-        </div>
-        <div id="decorative" class="grid_5 omega">
-            <!--<img src="images/decorative.png">-->
-        </div>
+        <div id="content" class="grid_7"></div>
 
     </div>
 </div>
 
+<!-------------------------------->
+<!-------------LINE UP------------>
+<!-------------------------------->
 
 <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
 
-    <div id="cbp-fwslider" class="cbp-fwslider">
-        <ul>
-            <li><a href="#"><h1>claim</h1><img src="il-images/bands/claim_web.jpg"/><h2>band blablabla</h2></a></li>
-            <li><a href="#"><h1>begbie</h1><img src="il-images/bands/begbie_web.jpg"/><h2>band blablabla</h2></a></li>
-            <li><a href="#"><h1>no soap radio</h1><img src="il-images/bands/nsoapr_web.jpg"/><h2>band blablabla</h2></a></li>
-            <li><a href="#"><h1>suralin</h1><img src="il-images/bands/suralin_web.jpg"/><h2>band blablabla</h2></a></li>
-            <li><a href="#"><h1>thrasure</h1><img src="il-images/bands/thrashure_Web.jpg"/><h2>band blablabla</h2></a></li>
-        </ul>
-
+    <div id="cbp-fbscroller" class="cbp-fbscroller">
+        <nav>
+            <a href="#fbsection1" class="cbp-fbcurrent">Section 1</a>
+            <a href="#fbsection2">Section 2</a>
+            <a href="#fbsection3">Section 3</a>
+            <a href="#fbsection4">Section 4</a>
+            <a href="#fbsection5">Section 5</a>
+        </nav>
+        <section id="fbsection1"></section>
+        <section id="fbsection2"></section>
+        <section id="fbsection3"></section>
+        <section id="fbsection4"></section>
+        <section id="fbsection5"></section>
     </div>
+
+
+    <!-- <div id="cbp-fwslider" class="cbp-fwslider">
+         <ul>
+             <li>
+                 <div><h1>claim</h1><img src="il-images/bands/claim_web.jpg"/>
+
+                     <h2>band blablabla</h2></div>
+             </li>
+             <li>
+                 <div><h1>begbie</h1><img src="il-images/bands/begbie_web.jpg"/>
+
+                     <h2>Zwischen Melancholie und provinzieller Gelassenheit, entführen uns die drei Magdeburger Jungs
+                         von Begbie in die poppige Weite der schönen Harmonien.
+                         Selbst bezeichnen Sie Ihre Stücke als Heartdisco Music. Und wahrlich das ist Sie, Disco fürs
+                         Herz die immer wieder für eine Überraschung gut ist.</h2>
+                 </div>
+             </li>
+             <li>
+                 <div><h1>no soap radio</h1><img src="il-images/bands/nsoapr_web.jpg"/>
+
+                     <p>No Soap Radio. Das ist kompromissloser Gitarrenrock, der seine Direktheit und Kraft aus den
+                         verschiedensten Genres gewinnt. Von Psychedelic über Progressive Rock bis hin zu Stoner, Punk
+                         und Metal machen sich Einflüsse bemerkbar, die mal mehr und mal weniger Gewicht haben. Das im
+                         Mai 2012 erschienene Debütalbum ‚Sweet Chimera‘ ist von dieser Vielfalt geprägt. Die meist
+                         satten und kernigen Gitarrensounds bilden dabei den Teppich für tragende, mittige Songs, rotzige
+                         Punknummern oder das metallisch-gewittrige ‚Sweet Chimera‘. Eingewoben in diese Songstrukturen
+                         werden filigrane, teils auch orientalisch anmutende Soli, charakteristische Vocals und
+                         auflodernde bis smoothe Bridges – immer auch vom beharrlichen Bass- und Schlagzeuggroove
+                         geprägt.</p>
+                 </div>
+             </li>
+             <li>
+                 <div><h1>suralin</h1><img src="il-images/bands/suralin_web.jpg"/>
+
+                     <h2>Als Kinder haben wir mit Suralin noch unsere eigenen Fantasien in Form gebracht. Spannend den
+                         Moment abgewartet bis sich das Gebilde im Backofen für ewig verfestigt.
+                         So auch verfestigen die Jungs aus Chemnitz die bunte Menge von Noiserock, Post-Punk und Pop zu
+                         einem treibenden Sound der einen einfach mitreist.</h2></div>
+             </li>
+             <li>
+                 <div><h1>thrasure</h1><img src="il-images/bands/thrashure_Web.jpg"/>
+
+                     <h2>band blablabla</h2></div>
+             </li>
+         </ul>
+
+     </div>-->
     <div class="container clearfix">
     </div>
 
 
 </div>
 
+
+<!-------------------------------->
+<!--------------PARK-------------->
+<!-------------------------------->
 
 <div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.1">
-    <div class="container clearfix">
-        <!--<img src="il-images/parkpano.jpg">-->
+    <div class="wrapper">
+        <div class="container clearfix">
+            <!--<img src="il-images/parkpano.jpg">-->
 
-        <div id="content" class="grid_12">
-            <h1>Place</h1>
+            <div id="content" class="grid_12">
+                <h1>Park</h1>
 
-            <h2></h2>
+                <h2></h2>
+            </div>
+
+            <div id="test" class="grid_1">1</div>
+            <div id="test" class="grid_11 omega">11</div>
+            <div id="test" class="grid_2">2</div>
+            <div id="test" class="grid_10 omega">10</div>
+            <div id="test" class="grid_3">3</div>
+            <div id="test" class="grid_9 omega">9</div>
+            <div id="test" class="grid_8 omega">8</div>
+            <div id="test" class="grid_4">4</div>
+            <div id="test" class="grid_5">5</div>
+            <div id="test" class="grid_7 omega">7</div>
+            <div id="test" class="grid_6">6</div>
+            <div id="test" class="grid_6 omega">6</div>
+            <div id="test" class="grid_7">7</div>
+            <div id="test" class="grid_5 omega">5</div>
+            <div id="test" class="grid_8">8</div>
+            <div id="test" class="grid_4 omega">4</div>
+            <div id="test" class="grid_9">9</div>
+            <div id="test" class="grid_3 omega">3</div>
+            <div id="test" class="grid_10">10</div>
+            <div id="test" class="grid_2 omega">2</div>
+            <div id="test" class="grid_11">11</div>
+            <div id="test" class="grid_1 omega">1</div>
+            <div id="test" class="grid_12">12</div>
         </div>
 
-        <div id="test" class="grid_1">1</div>
-        <div id="test" class="grid_11 omega">11</div>
-        <div id="test" class="grid_2">2</div>
-        <div id="test" class="grid_10 omega">10</div>
-        <div id="test" class="grid_3">3</div>
-        <div id="test" class="grid_9 omega">9</div>
-        <div id="test" class="grid_8 omega">8</div>
-        <div id="test" class="grid_4">4</div>
-        <div id="test" class="grid_5">5</div>
-        <div id="test" class="grid_7 omega">7</div>
-        <div id="test" class="grid_6">6</div>
-        <div id="test" class="grid_6 omega">6</div>
-        <div id="test" class="grid_7">7</div>
-        <div id="test" class="grid_5 omega">5</div>
-        <div id="test" class="grid_8">8</div>
-        <div id="test" class="grid_4 omega">4</div>
-        <div id="test" class="grid_9">9</div>
-        <div id="test" class="grid_3 omega">3</div>
-        <div id="test" class="grid_10">10</div>
-        <div id="test" class="grid_2 omega">2</div>
-        <div id="test" class="grid_11">11</div>
-        <div id="test" class="grid_1 omega">1</div>
-        <div id="test" class="grid_12">12</div>
-
     </div>
+
 </div>
 
 
+<!-------------------------------->
+<!-------------CREDITS------------>
+<!-------------------------------->
 <div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
     <div class="container clearfix">
 
         <div id="content" class="grid_12">
             <h1>Credits</h1>
 
-            <h2><a href="http://www.insectlounge.de" target="_blank">insectlounge</a> was made by <a
-                    href="http://www.rickbert.de" target="_blank">Rickbert</a>.</h2>
+            <h2><a href="http://www.insectlounge.de" target="_blank">insectlounge</a></h2>
 
-            <p>Don't forget to follow me!</p>
-
-            <p><a href="https://twitter.com/Jalxob" target="_blank"><img src="images/twitter.png"></a> <a
-                    href="http://dribbble.com/jalxob" target="_blank"><img src="images/dribbble.png"></a></p>
         </div>
 
     </div>
 </div>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-<script type="text/javascript" src="js/waypoints.min.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/jquery.cbpFWSlider.min.js"></script>
-<script>
-    $(function () {
-        $('#cbp-fwslider').cbpFWSlider();
-    });
-</script>
 
 </body>
 </html>
