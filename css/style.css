@@ -63,14 +63,6 @@ a:visited {
     font-weight: bold;
 }
 
-.slide {
-    background-attachment: fixed;
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding: 140px 0;
-}
-
 #logo {
     text-align: center;
     margin: 10px 0;
@@ -81,6 +73,14 @@ a:visited {
     margin: 30px 0 0 0;
 }
 
+.slide {
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 140px 0;
+}
+
 #slide_id {
     background-color: rgba(255, 255, 255, 0.9);
     color: rgb(128, 128, 128);
@@ -89,7 +89,9 @@ a:visited {
     font-weight: 400;
 }
 
-/* Start */
+/**********************************/
+/************* Start *************/
+/**********************************/
 
 #logo-background {
     background-color: #dd2b27;
@@ -106,8 +108,7 @@ a:visited {
     font-size: 3.8em;
     letter-spacing: -3px;
     line-height: 0px;
-    color: #8a8683;
-    font-weight: 700;
+    color: #dd2b27
 }
 
 #slide1 h2 {
@@ -118,13 +119,22 @@ a:visited {
     font-weight: 400;
 }
 
-/* Line Up */
+/**********************************/
+/************* Bands *************/
+/**********************************/
 
 #slide2 {
     background-color: #ffffff;
     color: #000000;
     padding-top: 150px;
-    height: 900px;
+    height: auto;
+}
+
+#slide2 h1 {
+    font-size: 3.8em;
+    letter-spacing: -3px;
+    line-height: 0px;
+    color: #dd2b27
 }
 
 #slide2 h2 {
@@ -159,7 +169,9 @@ a:visited {
     line-height: 21px;
 }
 
-/* Place */
+/**********************************/
+/************* Park *************/
+/**********************************/
 
 #slide3 {
     background: url(../images/parkpano_web.jpg) no-repeat left center;
@@ -169,7 +181,7 @@ a:visited {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 700px;
+    height: auto;
 }
 
 #slide3 h1 {
@@ -197,12 +209,12 @@ a:visited {
     background-image: url(../images/dot-pattern.png);
 }
 
-/* Credits */
+/**********************************/
+/************* Impressum *************/
+/**********************************/
 
 #slide4 {
-
     color: rgb(128, 128, 128);
-
     background: url(../images/HHE_web.jpg) no-repeat left center;
     background-attachment: fixed;
 
@@ -210,7 +222,7 @@ a:visited {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 650px;
+    height: auto;
 
 }
 
@@ -236,7 +248,10 @@ a:visited {
     background-image: url(../images/dot-pattern.png);
 }
 
-/* Tablet */
+/**********************************/
+/************* Tablet *************/
+/**********************************/
+
 @media screen and (max-width: 1024px) {
 
     #logo {
@@ -313,7 +328,10 @@ a:visited {
 
 }
 
-/* Mobile */
+/**********************************/
+/************* Mobile *************/
+/**********************************/
+
 @media screen and (max-width: 480px) {
 
     #logo {
@@ -379,7 +397,3 @@ a:visited {
     }
 
 }
-
-
-
-
