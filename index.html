@@ -19,40 +19,20 @@
     <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
-    <link rel="stylesheet" type="text/css" href="css/slider.css"/>
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
     <!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
     <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-    <!--<script type="text/javascript" src="js/waypoints.min.js"></script>-->
-    <!--<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>-->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
-<!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
-    <script src="js/jquery.cbpFWSlider.js"></script>
-    <script>
-        $(function () {
-            $('#cbp-fwslider').cbpFWSlider();
-        });
-    </script>-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
-    <script src="js/jquery.easing.min.js"></script>
-    <!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
-    <script src="js/waypoints.min.js"></script>
-    <!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
-    <script src="js/jquery.debouncedresize.js"></script>
-    <script src="js/cbpFixedScrollLayout.js"></script>
-    <script>
-        $(function() {
-            cbpFixedScrollLayout.init();
-        });
-    </script>
+
 </head>
 
 <body>
@@ -61,7 +41,7 @@
     <div class="container clearfix">
 
         <!--<div id="logo" class="grid_3">-->
-        <!--<img src="images/logo.png">-->
+        <!--<img src="content-images/logo.png">-->
         <!--</div>-->
 
         <div id="nav" class="grid_9 omega">
@@ -83,7 +63,7 @@
 <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 
     <div id="logo-background" class="grid_12">
-        <img src="il-images/logo.png">
+        <img src="images/logo.png">
     </div>
 
     <div class="container clearfix">
@@ -99,71 +79,81 @@
 
 <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
 
-    <div id="cbp-fbscroller" class="cbp-fbscroller">
-        <nav>
-            <a href="#fbsection1" class="cbp-fbcurrent">Section 1</a>
-            <a href="#fbsection2">Section 2</a>
-            <a href="#fbsection3">Section 3</a>
-            <a href="#fbsection4">Section 4</a>
-            <a href="#fbsection5">Section 5</a>
-        </nav>
-        <section id="fbsection1"></section>
-        <section id="fbsection2"></section>
-        <section id="fbsection3"></section>
-        <section id="fbsection4"></section>
-        <section id="fbsection5"></section>
-    </div>
 
-
-    <!-- <div id="cbp-fwslider" class="cbp-fwslider">
-         <ul>
-             <li>
-                 <div><h1>claim</h1><img src="il-images/bands/claim_web.jpg"/>
-
-                     <h2>band blablabla</h2></div>
-             </li>
-             <li>
-                 <div><h1>begbie</h1><img src="il-images/bands/begbie_web.jpg"/>
-
-                     <h2>Zwischen Melancholie und provinzieller Gelassenheit, entführen uns die drei Magdeburger Jungs
-                         von Begbie in die poppige Weite der schönen Harmonien.
-                         Selbst bezeichnen Sie Ihre Stücke als Heartdisco Music. Und wahrlich das ist Sie, Disco fürs
-                         Herz die immer wieder für eine Überraschung gut ist.</h2>
-                 </div>
-             </li>
-             <li>
-                 <div><h1>no soap radio</h1><img src="il-images/bands/nsoapr_web.jpg"/>
-
-                     <p>No Soap Radio. Das ist kompromissloser Gitarrenrock, der seine Direktheit und Kraft aus den
-                         verschiedensten Genres gewinnt. Von Psychedelic über Progressive Rock bis hin zu Stoner, Punk
-                         und Metal machen sich Einflüsse bemerkbar, die mal mehr und mal weniger Gewicht haben. Das im
-                         Mai 2012 erschienene Debütalbum ‚Sweet Chimera‘ ist von dieser Vielfalt geprägt. Die meist
-                         satten und kernigen Gitarrensounds bilden dabei den Teppich für tragende, mittige Songs, rotzige
-                         Punknummern oder das metallisch-gewittrige ‚Sweet Chimera‘. Eingewoben in diese Songstrukturen
-                         werden filigrane, teils auch orientalisch anmutende Soli, charakteristische Vocals und
-                         auflodernde bis smoothe Bridges – immer auch vom beharrlichen Bass- und Schlagzeuggroove
-                         geprägt.</p>
-                 </div>
-             </li>
-             <li>
-                 <div><h1>suralin</h1><img src="il-images/bands/suralin_web.jpg"/>
-
-                     <h2>Als Kinder haben wir mit Suralin noch unsere eigenen Fantasien in Form gebracht. Spannend den
-                         Moment abgewartet bis sich das Gebilde im Backofen für ewig verfestigt.
-                         So auch verfestigen die Jungs aus Chemnitz die bunte Menge von Noiserock, Post-Punk und Pop zu
-                         einem treibenden Sound der einen einfach mitreist.</h2></div>
-             </li>
-             <li>
-                 <div><h1>thrasure</h1><img src="il-images/bands/thrashure_Web.jpg"/>
-
-                     <h2>band blablabla</h2></div>
-             </li>
-         </ul>
-
-     </div>-->
     <div class="container clearfix">
-    </div>
 
+        <div>
+            <div id="test" class="grid_3">
+
+                <span class="img_wrap">
+                    <img src="images/bands/claim_web.jpg"/>
+                </span>
+                <span class="desc_wrap">
+                    <h2>claim</h2>
+                    <p>band blablabla</p>
+                </span>
+            </div>
+        </div>
+        <div id="test" class="grid_3">
+
+                <span class="img_wrap">
+                    <img src="images/bands/nsoapr_web.jpg"/>
+                </span>
+                <span class="desc_wrap">
+                    <h2>no soap radio</h2>
+                    <p>No Soap Radio. Das ist kompromissloser Gitarrenrock, der seine Direktheit und Kraft aus den
+                        verschiedensten Genres gewinnt. Von Psychedelic über Progressive Rock bis hin zu Stoner, Punk
+                        und Metal machen sich Einflüsse bemerkbar, die mal mehr und mal weniger Gewicht haben. Das im
+                        Mai 2012 erschienene Debütalbum ‚Sweet Chimera‘ ist von dieser Vielfalt geprägt. Die meist
+                        satten und kernigen Gitarrensounds bilden dabei den Teppich für tragende, mittige Songs, rotzige
+                        Punknummern oder das metallisch-gewittrige ‚Sweet Chimera‘. Eingewoben in diese Songstrukturen
+                        werden filigrane, teils auch orientalisch anmutende Soli, charakteristische Vocals und
+                        auflodernde bis smoothe Bridges – immer auch vom beharrlichen Bass- und Schlagzeuggroove
+                        geprägt.</p>
+                </span>
+        </div>
+        <div id="test" class="grid_3">
+
+                <span class="img_wrap">
+                    <img src="images/bands/begbie_web.jpg"/>
+                </span>
+                <span class="desc_wrap">
+                    <h2>begbie</h2>
+                    <p>Zwischen Melancholie und provinzieller Gelassenheit, entführen uns die drei Magdeburger Jungs
+                        von Begbie in die poppige Weite der schönen Harmonien.
+                        Selbst bezeichnen Sie Ihre Stücke als Heartdisco Music. Und wahrlich das ist Sie, Disco fürs
+                        Herz die immer wieder für eine Überraschung gut ist</p>
+                </span>
+        </div>
+        <div id="test" class="grid_3 omega">
+
+                <span class="img_wrap">
+                    <img src="images/bands/suralin_web.jpg"/>
+                </span>
+                <span class="desc_wrap">
+                    <h2>suralin</h2>
+                    <p>Als Kinder haben wir mit Suralin noch unsere eigenen Fantasien in Form gebracht. Spannend den
+                        Moment abgewartet bis sich das Gebilde im Backofen für ewig verfestigt.
+                        So auch verfestigen die Jungs aus Chemnitz die bunte Menge von Noiserock, Post-Punk und Pop zu
+                        einem treibenden Sound der einen einfach mitreist.</p>
+                </span>
+        </div>
+
+        <div>
+            <div id="test" class="grid_3">
+
+                <span class="img_wrap">
+                    <img src="images/bands/thrashure_Web.jpg"/>
+                </span>
+                <span class="desc_wrap">
+                    <h2>thrasure</h2>
+                    <p>band blablabla</p>
+                </span>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 </div>
 
@@ -175,37 +165,23 @@
 <div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.1">
     <div class="wrapper">
         <div class="container clearfix">
-            <!--<img src="il-images/parkpano.jpg">-->
+            <!--<img src="il-content-images/parkpano.jpg">-->
 
             <div id="content" class="grid_12">
-                <h1>Park</h1>
+                <span class="white_bg">
+                    <h1>Waldbühne Börnichen</h1>
 
-                <h2></h2>
+                    <h2>Waldbühne blablablub bla bla</h2>
+                </span>
             </div>
-
-            <div id="test" class="grid_1">1</div>
-            <div id="test" class="grid_11 omega">11</div>
-            <div id="test" class="grid_2">2</div>
-            <div id="test" class="grid_10 omega">10</div>
+            <!--
+            <div id="test" class="grid_3">1</div>
+            <div id="test" class="grid_3">2</div>
             <div id="test" class="grid_3">3</div>
-            <div id="test" class="grid_9 omega">9</div>
-            <div id="test" class="grid_8 omega">8</div>
-            <div id="test" class="grid_4">4</div>
-            <div id="test" class="grid_5">5</div>
-            <div id="test" class="grid_7 omega">7</div>
-            <div id="test" class="grid_6">6</div>
-            <div id="test" class="grid_6 omega">6</div>
-            <div id="test" class="grid_7">7</div>
-            <div id="test" class="grid_5 omega">5</div>
-            <div id="test" class="grid_8">8</div>
-            <div id="test" class="grid_4 omega">4</div>
-            <div id="test" class="grid_9">9</div>
-            <div id="test" class="grid_3 omega">3</div>
-            <div id="test" class="grid_10">10</div>
-            <div id="test" class="grid_2 omega">2</div>
-            <div id="test" class="grid_11">11</div>
-            <div id="test" class="grid_1 omega">1</div>
-            <div id="test" class="grid_12">12</div>
+            <div id="test" class="grid_3 omega">4</div>
+
+            <div id="test" class="grid_12">3</div>
+            -->
         </div>
 
     </div>
@@ -219,12 +195,14 @@
 <div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
     <div class="container clearfix">
 
-        <div id="content" class="grid_12">
-            <h1>Credits</h1>
+        <span class="white_bg">
+            <div id="content" class="grid_12">
+                <h1>Credits</h1>
 
-            <h2><a href="http://www.insectlounge.de" target="_blank">insectlounge</a></h2>
+                <h2>insectlounge bla bla blub</h2>
 
-        </div>
+            </div>
+        </span>
 
     </div>
 </div>

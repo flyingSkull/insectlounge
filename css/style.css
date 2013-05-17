@@ -14,16 +14,13 @@ a:link {
     color: #f68f67;
     text-decoration: none;
 }
-a:hover {
-    color: #bde2df;
-    text-decoration: none;
-}
+
 a:visited {
     color: #f68f67;
     text-decoration: none;
 }
 
-/* Navigation */
+/* General Classes */
 
 .menu {
     position: fixed;
@@ -35,14 +32,14 @@ a:visited {
     z-index: 100;
 }
 
-#logo {
-    text-align: center;
-    margin: 10px 0;
+.white_bg{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 12px;
+    margin: 5px 0px;
+    color: rgb(128, 128, 128);
 }
-#nav {
-    text-align: right;
-    margin: 30px 0 0 0;
-}
+
 .navigation {
     float: right;
     list-style: none;
@@ -63,14 +60,32 @@ a:visited {
     font-weight: bold;
 }
 
-/* General Slides */
-
 .slide {
     background-attachment: fixed;
     width: 100%;
     height: auto;
     position: relative;
     padding: 140px 0;
+}
+
+#logo {
+    text-align: center;
+    margin: 10px 0;
+}
+#nav {
+    text-align: right;
+    margin: 30px 0 0 0;
+}
+
+#test {
+
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(128, 128, 128);
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+
+
 }
 
 /* Start */
@@ -82,7 +97,7 @@ a:visited {
 }
 
 #slide1 {
-    background-image: url("../il-images/start.jpg");
+    background-image: url("../images/start.jpg");
     padding: 300px 0;
 }
 #slide1 h1 {
@@ -103,32 +118,48 @@ a:visited {
 /* Line Up */
 
 #slide2 {
-    /*background-image: url('../images/footprints.png');*/
-    background-image: url("../il-images/start.jpg");
-    /*background-color: #f68f67;*/
-    color: #ffffff;
-    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 150px;
+    height: 900px;
 }
-#slide2 h1 {
-    font-size: 3.8em;
-    letter-spacing: -3px;
-    line-height: 0px;
-    color: #ffffff;
-    font-weight: 700;
-}
+
 #slide2 h2 {
-    font-size: 1.5em;
-    color: #ffffff;
+    font-size: 1em;
+    color: rgb(128, 128, 128);
     line-height: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     padding-top: 20px;
-    font-weight: 200;
+
+}
+
+#slide2 .img_wrap{
+    display: block;
+    background: none repeat scroll 0% 0% rgb(228, 31, 58);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 4px 4px 4px 4px;
+    overflow: hidden;
+}
+
+#slide2 .desc_wrap {
+    display: block;
+    padding: 27px 0px;
+    background: url("../images/tri_red.png") no-repeat scroll 50% 0px rgb(255, 255, 255);
+}
+
+#slide2 p {
+    color: rgb(128, 128, 128);
+    margin: 0px;
+    font-size: 13px;
+    line-height: 21px;
 }
 
 /* Place */
 
 #slide3 {
-    background: url(../il-images/parkpano.jpg) no-repeat left center;
+    background: url(../images/parkpano.jpg) no-repeat left center;
     background-attachment: fixed;
 
     -webkit-background-size: cover;
@@ -143,7 +174,7 @@ a:visited {
     letter-spacing: -3px;
     line-height: 0px;
     color: #ff9900;
-    font-weight: 700;
+
 }
 
 #slide3 h2 {
@@ -151,7 +182,7 @@ a:visited {
     color: #8a8683;
     line-height: 0px;
     padding-bottom: 20px;
-    font-weight: 400;
+
 }
 
 #slide3 .wrapper{
@@ -163,35 +194,27 @@ a:visited {
     background-image: url(../images/dot-pattern.png);
 }
 
-#test {
-    background-color: #bde2df;
-    color: #ffffff;
-    text-align: center;
-    font-size: 2em;
-    font-weight: 400;
-}
-
 /* Credits */
 
 #slide4 {
-    background-image: url('../images/sunglasses.png');
+    background-image: url('../images/logo.png');
     background-color: #8a8683;
-    color: #ffffff;
+    color: rgb(128, 128, 128);
     height: 900px;
+
+
 }
 #slide4 h1 {
     font-size: 3.8em;
     letter-spacing: -3px;
     line-height: 0px;
-    color: #ffffff;
-    font-weight: 700;
+    color: #dd2b27
+
 }
 #slide4 h2 {
     font-size: 2em;
-    color: #ffffff;
     line-height: 0px;
     padding-bottom: 20px;
-    font-weight: 400;
 }
 
 /* Tablet */
