@@ -4,8 +4,8 @@
     <list default="true" id="f5491a1c-3f47-4829-9cb2-a0b442e45ce3" name="Default" comment="" />
     <ignored path="insectlounge-kitten.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="f5491a1c-3f47-4829-9cb2-a0b442e45ce3" time="1368793902484" ignored="false" />
-    <file path="/style.css" changelist="f5491a1c-3f47-4829-9cb2-a0b442e45ce3" time="1368794906092" ignored="false" />
+    <file path="/index.html" changelist="f5491a1c-3f47-4829-9cb2-a0b442e45ce3" time="1368805794645" ignored="false" />
+    <file path="/style.css" changelist="f5491a1c-3f47-4829-9cb2-a0b442e45ce3" time="1368805735566" ignored="false" />
     <file path="/grid.css" changelist="f5491a1c-3f47-4829-9cb2-a0b442e45ce3" time="1368643513003" ignored="false" />
     <file path="/component.css" changelist="f5491a1c-3f47-4829-9cb2-a0b442e45ce3" time="1368740086465" ignored="false" />
     <file path="/slider.css" changelist="f5491a1c-3f47-4829-9cb2-a0b442e45ce3" time="1368733886367" ignored="false" />
@@ -28,19 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="14" selection-start="3347" selection-end="3347" vertical-scroll-proportion="-10.041667">
+            <state line="51" column="43" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.92615014">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.7176471">
+            <state line="76" column="25" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
         <option value="$PROJECT_DIR$/js/jquery.cbpFWSlider.js" />
         <option value="$PROJECT_DIR$/css/slider.css" />
         <option value="$PROJECT_DIR$/css/component.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -162,6 +162,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insectlounge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insectlounge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -172,9 +190,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/il-images" />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -323,13 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -337,16 +352,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/grid.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="14" selection-start="3347" selection-end="3347" vertical-scroll-proportion="-10.041667">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.7176471">
+        <state line="76" column="25" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="43" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.92615014">
           <folding />
         </state>
       </provider>
