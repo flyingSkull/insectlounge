@@ -7,9 +7,11 @@ body {
     color: #8a8683;
     background-color: #ffffff;
 }
+
 img {
     max-width: 100%;
 }
+
 a:link {
     color: #f68f67;
     text-decoration: none;
@@ -27,16 +29,15 @@ a:visited {
     top: 0px;
     width: 100%;
     height: auto;
-    background-color: #e6c790;
     background-color: #ffffff;
     z-index: 100;
 }
 
-.white_bg{
+.white_bg {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
     padding: 12px;
-    margin: 5px 0px;
+    margin-top: 1.5em;
     color: rgb(128, 128, 128);
 }
 
@@ -45,10 +46,12 @@ a:visited {
     list-style: none;
     margin: 0;
 }
+
 .navigation li {
     float: left;
     padding: 0 0 0 50px;
 }
+
 .navigation li:hover {
     cursor: pointer;
     color: #a9d3d0;
@@ -72,20 +75,18 @@ a:visited {
     text-align: center;
     margin: 10px 0;
 }
+
 #nav {
     text-align: right;
     margin: 30px 0 0 0;
 }
 
-#test {
-
+#slide_id {
     background-color: rgba(255, 255, 255, 0.9);
     color: rgb(128, 128, 128);
     text-align: center;
     font-size: 2em;
     font-weight: 400;
-
-
 }
 
 /* Start */
@@ -100,6 +101,7 @@ a:visited {
     background-image: url("../images/start.jpg");
     padding: 300px 0;
 }
+
 #slide1 h1 {
     font-size: 3.8em;
     letter-spacing: -3px;
@@ -107,6 +109,7 @@ a:visited {
     color: #8a8683;
     font-weight: 700;
 }
+
 #slide1 h2 {
     font-size: 2em;
     color: #8a8683;
@@ -133,7 +136,7 @@ a:visited {
 
 }
 
-#slide2 .img_wrap{
+#slide2 .img_wrap {
     display: block;
     background: none repeat scroll 0% 0% rgb(228, 31, 58);
     text-align: center;
@@ -159,7 +162,7 @@ a:visited {
 /* Place */
 
 #slide3 {
-    background: url(../images/parkpano.jpg) no-repeat left center;
+    background: url(../images/parkpano_web.jpg) no-repeat left center;
     background-attachment: fixed;
 
     -webkit-background-size: cover;
@@ -173,7 +176,7 @@ a:visited {
     font-size: 3.8em;
     letter-spacing: -3px;
     line-height: 0px;
-    color: #ff9900;
+    color: #dd2b27;
 
 }
 
@@ -185,7 +188,7 @@ a:visited {
 
 }
 
-#slide3 .wrapper{
+#slide3 .wrapper {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -197,24 +200,40 @@ a:visited {
 /* Credits */
 
 #slide4 {
-    background-image: url('../images/logo.png');
-    background-color: #8a8683;
-    color: rgb(128, 128, 128);
-    height: 900px;
 
+    color: rgb(128, 128, 128);
+
+    background: url(../images/HHE_web.jpg) no-repeat left center;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 650px;
 
 }
+
 #slide4 h1 {
     font-size: 3.8em;
     letter-spacing: -3px;
     line-height: 0px;
     color: #dd2b27
-
 }
+
 #slide4 h2 {
     font-size: 2em;
     line-height: 0px;
     padding-bottom: 20px;
+}
+
+#slide4 .wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dot-pattern.png);
 }
 
 /* Tablet */
@@ -263,24 +282,31 @@ a:visited {
     #slide1 h1 {
         line-height: 1em;
     }
+
     #slide1 h2 {
         line-height: 1em;
     }
+
     #slide2 h1 {
         line-height: 1em;
     }
+
     #slide2 h2 {
         line-height: 1em;
     }
+
     #slide3 h1 {
         line-height: 1em;
     }
+
     #slide3 h2 {
         line-height: 1em;
     }
+
     #slide4 h1 {
         line-height: 1em;
     }
+
     #slide4 h2 {
         line-height: 1em;
     }
@@ -323,24 +349,31 @@ a:visited {
     #slide1 h1 {
         line-height: 1em;
     }
+
     #slide1 h2 {
         line-height: 1em;
     }
+
     #slide2 h1 {
         line-height: 1em;
     }
+
     #slide2 h2 {
         line-height: 1em;
     }
+
     #slide3 h1 {
         line-height: 1em;
     }
+
     #slide3 h2 {
         line-height: 1em;
     }
+
     #slide4 h1 {
         line-height: 1em;
     }
+
     #slide4 h2 {
         line-height: 1em;
     }
