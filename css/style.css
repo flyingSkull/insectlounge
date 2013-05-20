@@ -1,11 +1,23 @@
 /* Global */
 
+@font-face {
+    font-family: SuperGrotesk;
+    src: url('../fonts/SuperGroteskOT.otf');
+    font-style: normal;
+    font-weight: bold;
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'SuperGrotesk';
     font-size: 1em;
     color: #8a8683;
     background-color: #ffffff;
+
+    /*font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #8a8683;
+    background-color: #ffffff;*/
 }
 
 img {
@@ -13,12 +25,12 @@ img {
 }
 
 a:link {
-    color: #f68f67;
+    color: rgb(228, 31, 58);
     text-decoration: none;
 }
 
 a:visited {
-    color: #f68f67;
+    color: rgb(228, 31, 58);
     text-decoration: none;
 }
 
@@ -35,9 +47,10 @@ a:visited {
 
 .white_bg {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 1);
-    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
     margin-top: 1.5em;
+    margin-bottom: 1em;
     color: rgb(128, 128, 128);
 }
 
@@ -59,7 +72,7 @@ a:visited {
 
 .navigation .active {
     cursor: pointer;
-    color: #f68f67;
+    color: rgb(228, 31, 58);
     font-weight: bold;
 }
 
@@ -68,15 +81,21 @@ a:visited {
     width: 100%;
     height: auto;
     position: relative;
-    padding: 140px 0;
+    padding: 80px 0;
 }
 
-/* General IDs*/
+/* General IDs */
 
 #devider {
-    padding: 1em 0px 1em;
+    margin-bottom: 3em;
     background: url("../images/section_divider.png") repeat-x scroll 50% 100% rgb(255, 255, 255);
     border: 0px none;
+}
+
+#devider h1 {
+    color: rgb(228, 31, 58);
+    text-align: left;
+    line-height: 0px;
 }
 
 #logo {
@@ -92,19 +111,18 @@ a:visited {
 #slide_id {
     background-color: rgba(255, 255, 255, 0.9);
     color: rgb(128, 128, 128);
-    text-align: center;
-    font-size: 2em;
-    font-weight: 400;
 }
 
-/**********************************/
-/************* Start *************/
-/**********************************/
+/********************************************************************/
+/************************** Start ***********************************/
+/********************************************************************/
 
 #logo-background {
-    background-color: #dd2b27;
+    background-color: rgb(228, 31, 58);
     text-align: center;
     margin-top: 0px;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 #slide1 {
@@ -112,35 +130,34 @@ a:visited {
     height: 50em;
 }
 
-/**********************************/
-/************* Bands *************/
-/**********************************/
+/********************************************************************/
+/************************** Bands ***********************************/
+/********************************************************************/
 
 #slide2 {
     background-color: #ffffff;
     color: #000000;
-    padding-top: 150px;
     height: auto;
 }
 
 #slide2 h1 {
     font-size: 2em;
     line-height: 0px;
-    color: #dd2b27
+    color: rgb(228, 31, 58);
 }
 
 #slide2 h2 {
-    font-size: 1em;
+    font-size: 2em;
     color: rgb(128, 128, 128);
     line-height: 0px;
     padding-bottom: 30px;
     padding-top: 20px;
-
 }
 
 #slide2 .white_bg {
     background-color: rgba(255, 255, 255, 1);
     color: rgb(128, 128, 128);
+    padding-bottom: 2em;
 }
 
 #slide2 .img_wrap {
@@ -157,20 +174,14 @@ a:visited {
 #slide2 .desc_wrap {
     display: block;
     padding: 27px 0px;
+    text-align: center;
     background: url("../images/tri_red.png") no-repeat scroll 50% 0px rgb(255, 255, 255);
 }
 
-#slide2 p {
-    color: rgb(128, 128, 128);
-    margin: 0px;
-    font-size: 13px;
-    line-height: 21px;
-    text-align: justify;
-}
 
-/**********************************/
-/************* Park *************/
-/**********************************/
+/********************************************************************/
+/*************************** Park ***********************************/
+/********************************************************************/
 
 #slide3 {
     background: url(../images/parkpano_web.jpg) no-repeat left center;
@@ -180,20 +191,25 @@ a:visited {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 50em;
+    height: 45em;
 }
 
 #slide3 h1 {
-    font-size: 2em;
+    font-size: 3em;
     line-height: 0px;
-    color: #dd2b27;
+    color: rgb(228, 31, 58);
 }
 
 #slide3 h2 {
-    font-size: 1em;
-    color: #8a8683;
+    font-size: 2em;
+    color: rgb(128, 128, 128);
     line-height: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#slide3 p {
+    padding: 10px;
 }
 
 #slide3 .wrapper {
@@ -205,13 +221,13 @@ a:visited {
     background-image: url(../images/dot-pattern.png);
 }
 
-/**********************************/
-/************* Impressum *************/
-/**********************************/
 
+/************************************************************************/
+/************************** Impressum ***********************************/
+/************************************************************************/
 #slide4 {
     color: rgb(128, 128, 128);
-    background: url(../images/HHE_web.jpg) no-repeat left center;
+    background: url(../images/park_iload_web.jpg) no-repeat left center;
     background-attachment: fixed;
 
     -webkit-background-size: cover;
@@ -222,15 +238,21 @@ a:visited {
 }
 
 #slide4 h1 {
-    font-size: 2em;
+    font-size: 3em;
     line-height: 0px;
-    color: #dd2b27
+    color: rgb(228, 31, 58);
 }
 
 #slide4 h2 {
-    font-size: 1em;
+    font-size: 2em;
+    color: rgb(128, 128, 128);
     line-height: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#slide4 p {
+    padding: 10px;
 }
 
 #slide4 .wrapper {
@@ -276,7 +298,7 @@ a:visited {
         background-attachment: fixed;
         width: 100%;
         position: relative;
-        padding: 150px 0;
+        /*padding: 150px 0;*/
     }
 
     #decorative {
@@ -355,7 +377,7 @@ a:visited {
         background-attachment: fixed;
         width: 100%;
         position: relative;
-        padding: 150px 0;
+        /*padding: 150px 0;*/
     }
 
     #slide1 h1 {
