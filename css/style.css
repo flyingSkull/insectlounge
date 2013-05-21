@@ -109,11 +109,13 @@ a:visited {
 }
 
 #slide_id {
+    background-color: #ffffff; /*IE-Fallback*/
     background-color: rgba(255, 255, 255, 0.9);
     color: rgb(128, 128, 128);
 }
 
 #slide_2_id {
+    background-color: #ffffff; /*IE-Fallback*/
     background-color: rgba(255, 255, 255, 1);
     color: rgb(128, 128, 128);
     text-align: center;
@@ -126,13 +128,13 @@ a:visited {
 #logo-background {
     background-color: rgb(228, 31, 58);
     text-align: center;
-    margin-top: 0px;
+    margin-top: 12em;
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
 #slide1 {
-    background-image: url("../images/background/start.jpg");
+    background-image: url("../images/background/start_web.jpg");
     height: 50em;
 }
 
@@ -387,12 +389,22 @@ a:visited {
         /*padding: 150px 0;*/
     }
 
+    #slide1  {
+        background-color: #ffffff;
+    }
+
     #slide1 h1 {
         line-height: 1em;
     }
 
+
+
     #slide1 h2 {
         line-height: 1em;
+    }
+
+    #slide2  {
+        background-color: #ffffff;
     }
 
     #slide2 h1 {
@@ -403,12 +415,20 @@ a:visited {
         line-height: 1em;
     }
 
+    #slide3  {
+        background-color: #ffffff;
+    }
+
     #slide3 h1 {
         line-height: 1em;
     }
 
     #slide3 h2 {
         line-height: 1em;
+    }
+
+    #slide4  {
+        background-color: #ffffff;
     }
 
     #slide4 h1 {
