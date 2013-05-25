@@ -84,6 +84,21 @@ a:visited {
     padding: 80px 0;
 }
 
+.button {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    background-color: #333333;
+    background-image: url(../images/arrow.png);
+}
+.button:hover {
+    background-color: #494949;
+    cursor: pointer;
+}
+
 /* General IDs */
 
 #devider {
@@ -106,19 +121,13 @@ a:visited {
 #nav {
     text-align: right;
     margin: 30px 0 0 0;
+    padding-bottom: 1em;
 }
 
 #slide_id {
     /*background-color: #ffffff; *//*IE-Fallback*/
     background-color: rgba(255, 255, 255, 0.9);
     color: rgb(128, 128, 128);
-}
-
-#slide_2_id {
-    /*background-color: #ffffff; *//*IE-Fallback*/
-    background-color: rgba(255, 255, 255, 1);
-    color: rgb(128, 128, 128);
-    text-align: center;
 }
 
 /********************************************************************/
@@ -186,15 +195,23 @@ a:visited {
     background: url("../images/tri_red.png") no-repeat scroll 50% 0px rgb(255, 255, 255);
 }
 
-
 /********************************************************************/
 /*************************** Park ***********************************/
 /********************************************************************/
 
+#slide_1_id {
+    border: 4px solid #ffffff;
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#slide_1_id:hover {
+    border: 4px solid rgb(228, 31, 58);
+}
+
 #slide3 {
     background: url(../images/background/parkpano_web.jpg) no-repeat left center;
     background-attachment: fixed;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -229,10 +246,24 @@ a:visited {
     background-image: url(../images/dot-pattern.png);
 }
 
-
 /************************************************************************/
 /************************** Impressum ***********************************/
 /************************************************************************/
+
+#slide_2_id {
+    background-color: #ffffff; /**//*IE-Fallback*/
+    border: 4px solid #ffffff;
+    text-align: center;
+
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+#slide_2_id:hover {
+    border: 4px solid rgb(228, 31, 58);
+}
+
 #slide4 {
     color: rgb(128, 128, 128);
     background: url(../images/background/park_iload_web.jpg) no-repeat left center;
@@ -260,8 +291,17 @@ a:visited {
     padding-top: 20px;
 }
 
+#slide4 h3 {
+    line-height: 0px;
+    color: rgb(228, 31, 58);
+}
+
 #slide4 p {
     padding: 10px;
+}
+
+#slide4 a {
+    display: block;
 }
 
 #slide4 .wrapper {
@@ -389,9 +429,9 @@ a:visited {
         /*padding: 150px 0;*/
     }
 
-    #slide1  {
+    #slide1 {
         background: none;
-        background-color: #96C5BD;
+        background-color: #96c5bd;
     }
 
     #slide1 h1 {
@@ -402,7 +442,7 @@ a:visited {
         line-height: 1em;
     }
 
-    #slide2  {
+    #slide2 {
         background: none;
         background-color: #ffffff;
     }
@@ -415,9 +455,9 @@ a:visited {
         line-height: 1em;
     }
 
-    #slide3  {
+    #slide3 {
         background: none;
-        background-color: #96C5BD;
+        background-color: #96c5bd;
     }
 
     #slide3 h1 {
@@ -428,9 +468,9 @@ a:visited {
         line-height: 1em;
     }
 
-    #slide4  {
+    #slide4 {
         background: none;
-        background-color: #FFFFFF;
+        background-color: #ffffff;
     }
 
     #slide4 h1 {

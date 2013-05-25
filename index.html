@@ -20,18 +20,19 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
 
+    <!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+
     <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA54NHEgq88d3UxEcofL7W8BSfFOMWAjy-gIDOgeZTCFZSgbyU1xSiVEtTYUYwbB806qPMNcliZoVAVA" ></script>
     <!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
     <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
     <script type="text/javascript" src="js/waypoints.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-    <!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
 
 
@@ -72,9 +73,10 @@
 
         <div id="content"></div>
 
-        <div id id="slide_2_id" class="grid_12" style="height:12em"></div>
+        <div id id="slide_2_id" class="grid_12" style="height:15em"></div>
 
     </div>
+    <a class="button" data-slide="2" title=""></a>
 </div>
 
 
@@ -240,7 +242,7 @@
 <!-------------Park------------>
 <!-------------------------------->
 
-<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.05">
+<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0">
 
     <div class="container clearfix">
 
@@ -248,7 +250,7 @@
             <h1>Waldbühne im Börnichener Park</h1>
         </span>
 
-        <div id="slide_id" class="grid_12">
+        <div id="slide_id" style="padding: 4px" class="grid_12">
             <p>Die Waldbühne ist der zentrale Punkt des Börnichener Parks. Er gehörte einst zu dem alten
                 Rittergut und ist jetzt der Schauplatz vieler beliebter Veranstaltungen.<br>
 
@@ -266,7 +268,8 @@
 
         </div>
 
-        <div id="slide_id" class="grid_10"><img src="images/map.png"/></div>
+        <!--<div id="slide_id" class="grid_10"><a target="_blank" href="http://maps.google.de/maps?q=50.871222,13.160643&num=1&t=m&z=17&iwloc=near"><img src="images/map.png"/></a></div>-->
+        <div id="slide_1_id" class="grid_10" ><a target="_blank" href="http://goo.gl/maps/bQQ3g"><img src="images/map.png"/></a></div>
 
     </div>
 
@@ -277,7 +280,7 @@
 <!-------------------------------->
 <!-------------CREDITS------------>
 <!-------------------------------->
-<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.1">
+<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0">
     <div class="container clearfix">
 
         <span class="white_bg">
@@ -285,44 +288,67 @@
         </span>
 
         <div id="slide_id" class="grid_12">
-            <p>Was wäre das insect ohne seine zahlreichen freiwilligen Helfern, Besuchern, Freunden und Sponsoren.
-                Wir möchten uns herzlich bei allen mitwirkenden und mitfiebernden Enthusiasten bedanken.
-                Ohne euch wäre das alles nicht möglich, DANKE !<br><br>
-                it means the world to us<br>
+            <p>
+                insectlounge OpenAir<br>c/o Kultur- und Kunstverein Oederan e.V. Markt 6 09569 Oederan
+                <br><br>
+                Kontakt: info[at]insectlouunge
+                <br><br>
+                Website: kuw + rickbert
             </p>
 
         </div>
 
+        <div id="slide_0_id" class="grid_12" style="height:10em"></div>
+
+        <div id="slide_id" class="grid_12">
+            <p>Was wäre das insect ohne seine zahlreichen freiwilligen Helfer, Besucher, Freunden und Sponsoren.
+                <br><br>
+                Wir möchten uns herzlich bei allen mitwirkenden und mitfiebernden Enthusiasten bedanken.
+                Ohne euch wäre das alles nicht möglich, DANKE.<br><br>
+
+                it means the world to us !!!
+            </p>
+
+        </div>
+
+
         <div id="links_bottom">
-            <div id id="slide_2_id" class="grid_12" style="height:30em"></div>
 
-            <div id="slide_2_id" class="grid_3"><a target="_blank" href="http://www.oederan.de"><img src="images/sponsoren/Oederan_SW.png"/></a></div>
-            <div id="slide_2_id" class="grid_3"><a target="_blank" href="http://www.richter-fleischwaren.de"><img src="images/sponsoren/FleischereiRichter.png"/></a></div>
-            <div id="slide_2_id" class="grid_3"><a target="_blank" href="http://www.enviam.de"><img src="images/sponsoren/envia.jpg"/></a></div>
-            <div id="slide_2_id" class="grid_3 omega"><a target="_blank" href="http://www.mobilfunkshop-freiberg.de"><img src="images/sponsoren/Mobilfunkshop.jpg"/></a></div>
+            <div id="slide_2_id" class="grid_3_1"><a target="_blank" href="http://www.oederan.de"><img src="images/sponsoren/Oederan_SW.png"/></a></div>
+            <div id="slide_2_id" class="grid_3_1"><a target="_blank" href="http://www.richter-fleischwaren.de"><img src="images/sponsoren/FleischereiRichter.png"/></a></div>
+            <div id="slide_2_id" class="grid_3_1"><a target="_blank" href="http://www.enviam.de"><img src="images/sponsoren/envia.jpg"/></a></div>
+            <div id="slide_2_id" class="grid_3_1 omega"><a target="_blank" href="http://www.mobilfunkshop-freiberg.de"><img src="images/sponsoren/Mobilfunkshop.jpg"/></a></div>
 
-            <div id id="slide_2_id" class="grid_12"></div>
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="http://www.moebius-baeckerei.de"><img src="images/sponsoren/moebius.png"/></a></div>
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="http://www.elektro-haustechnik-walla.de"><img src="images/sponsoren/walla.png"/></a></div>
-            <div id="slide_2_id" class="grid_4 omega"><a target="_blank" href="http://www.stadtcafe-oederan.de"><img src="images/sponsoren/stadtcafe.jpg"/></a></div>
+            <div id="slide_0_id" class="grid_12"></div>
 
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="http://www.pumpenveit.de"><img src="images/sponsoren/PumpenVeit.png"/></a></div>
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="http://www.nobis-heizung.de"><img src="images/sponsoren/Nobis.png"/></a></div>
-            <div id="slide_2_id" class="grid_4 omega"><a target="_blank" href="http://www.kaffeeteam.de"><img src="images/sponsoren/KaffeeKrasselt.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="http://www.moebius-baeckerei.de"><img src="images/sponsoren/moebius.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="http://www.elektro-haustechnik-walla.de"><img src="images/sponsoren/walla.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1 omega"><a target="_blank" href="http://www.stadtcafe-oederan.de"><img src="images/sponsoren/stadtcafe.jpg"/></a></div>
 
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="http://www.goldener-stern.com"><img src="images/sponsoren/GoldenerStern.png"/></a></div>
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="http://www.gehre-baumarkt.de"><img src="images/sponsoren/Gehre.png"/></a></div>
-            <div id="slide_2_id" class="grid_4 omega"><a target="_blank" href="http://www.dittrich-kretzer.de"><img src="images/sponsoren/ArchitekturbüroKretzer.png"/></a></div>
+            <div id="slide_0_id" class="grid_12"></div>
 
-            <div id id="slide_2_id" class="grid_12"></div>
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="http://www.conradinaegel.com"><img src="images/sponsoren/Conradi.jpg"/></a></div>
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="https://vertretung.allianz.de/michael.schmatz/index.html"><img src="images/sponsoren/Allianz-Schmatz.png"/></a></div>
-            <div id="slide_2_id" class="grid_4 omega"><a target="_blank" href="http://www.wolfsecurity.de"><img src="images/sponsoren/Wolf-Sicherheit.jpg"/></a></div>
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="http://www.pumpenveit.de"><img src="images/sponsoren/PumpenVeit.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="http://www.nobis-heizung.de"><img src="images/sponsoren/Nobis.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1 omega"><a target="_blank" href="http://www.kaffeeteam.de"><img src="images/sponsoren/KaffeeKrasselt.png"/></a></div>
 
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="http://www.dekoration-landhaus.de"><img src="images/sponsoren/DekorationLandhaus.png"/></a></div>
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="http://www.grafik-print-nothnagel.de"><img src="images/sponsoren/Notnagel.png"/></a></div>
-            <div id="slide_2_id" class="grid_4 omega"><a target="_blank" href="http://oederaner-stanztechnik.de"><img src="images/sponsoren/UmformundBrand.png"/></a></div>
-            <div id="slide_2_id" class="grid_4"><a target="_blank" href="http://www.oederan.de/index.php?id=189&tx_branchenbuch_pi1[id]=383"><img src="images/sponsoren/Mandy_Goerner.jpg"/></a></div>
+            <div id="slide_0_id" class="grid_12"></div>
+
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="http://www.goldener-stern.com"><img src="images/sponsoren/GoldenerStern.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="http://www.gehre-baumarkt.de"><img src="images/sponsoren/Gehre.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1 omega"><a target="_blank" href="http://www.dittrich-kretzer.de"><img src="images/sponsoren/ArchitekturbüroKretzer.png"/></a></div>
+
+            <div id="slide_0_id" class="grid_12"></div>
+
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="http://www.conradinaegel.com"><img src="images/sponsoren/Conradi.jpg"/></a></div>
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="https://vertretung.allianz.de/michael.schmatz/index.html"><img src="images/sponsoren/Allianz-Schmatz.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1 omega"><a target="_blank" href="http://www.wolfsecurity.de"><img src="images/sponsoren/Wolf-Sicherheit.jpg"/></a></div>
+
+            <div id="slide_0_id" class="grid_12"></div>
+
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="http://www.dekoration-landhaus.de"><img src="images/sponsoren/DekorationLandhaus.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="http://www.grafik-print-nothnagel.de"><img src="images/sponsoren/Notnagel.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1 omega"><a target="_blank" href="http://oederaner-stanztechnik.de"><img src="images/sponsoren/UmformundBrand.png"/></a></div>
+            <div id="slide_2_id" class="grid_4_1"><a target="_blank" href="http://www.oederan.de/index.php?id=189&tx_branchenbuch_pi1[id]=383"><img src="images/sponsoren/Mandy_Goerner.jpg"/></a></div>
         </div>
 
     </div>

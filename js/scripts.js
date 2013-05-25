@@ -45,11 +45,11 @@ jQuery(document).ready(function ($) {
     });
 
     button.click(function (e) {
+        console.log("click");
         e.preventDefault();
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
 
     });
-
 
 });
