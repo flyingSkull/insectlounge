@@ -119,11 +119,23 @@ a:visited {
 }
 
 #slide_id {
-    background-color: #ffffff;/*IE-Fallback*/
+    background-color: #ffffff; /*IE-Fallback*/
     background-color: rgba(255, 255, 255, 0.9);
     color: rgb(128, 128, 128);
 }
 
+.portfolioLink {
+    display: block;
+    width: 128px;
+    height: 128px;
+    background: url('../images/icons/youtube-web.png') bottom;
+    text-indent: -99999px;
+    margin: 5em auto;
+}
+
+.portfolioLink:hover {
+    background-position: 0 0;
+}
 /********************************************************************/
 /************************** Start ***********************************/
 /********************************************************************/
