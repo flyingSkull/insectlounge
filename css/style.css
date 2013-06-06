@@ -85,8 +85,8 @@ a:visited {
     position: absolute;
     bottom: 0px;
     left: 50%;
-    background-color: #e41f3a;
-    background-image: url(../images/arrow.png);
+    margin-left: -25px;
+    background: #e41f3a url(../images/arrow.png);
 }
 .button:hover {
     background-color: #a9d3d0;
@@ -126,11 +126,11 @@ a:visited {
 
 .portfolioLink {
     display: block;
-    width: 128px;
-    height: 128px;
+    width: 80px;
+    height: 80px;
     background: url('../images/icons/youtube-web.png') bottom;
     text-indent: -99999px;
-    margin: 5em auto;
+    margin: 7em auto;
 }
 
 .portfolioLink:hover {
